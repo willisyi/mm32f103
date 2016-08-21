@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\TOUCH -I ..\HARDWARE\RTC -I ..\APP -I ..\..\..\Device\MM32x103\HAL_lib\inc -I ..\..\..\Device\MM32x103\Include -I ..\FreeRTOS\Source\include -I ..\FreeRTOS\Source\portable\MemMang -I ..\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I C:\Keil_v5\ARM\Pack\ARM\CMSIS\4.5.0\CMSIS\Include -I ..\uCGUI\inc -I ..\ucGUI\Config
+-I "C:\Users\b55229\Desktop\My eBook\MM32F103\¿ª·¢°åÀý³Ì_V2.1\Boards_MM32\smart prj\PRJ\RTE"
+-I C:\Keil_v5\ARM\PACK\MindMotion\MM32x103_DFP\1.1.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\MindMotion\MM32x103_DFP\1.1.0\Device\MM32x103_lib\inc
+-D__UVISION_VERSION="518" -DMM32x103_MD -DUSE_STDPERIPH_DRIVER -DUSE_FREERTOS
+-o .\obj\debuginflash\hal_crc.o --omf_browse .\obj\debuginflash\hal_crc.crf --depend .\obj\debuginflash\hal_crc.d --feedback ".\obj\DebugInFlash\DK103.fed" "..\..\..\Device\MM32x103\HAL_lib\src\HAL_crc.c"
